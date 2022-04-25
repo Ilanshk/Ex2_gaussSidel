@@ -102,7 +102,7 @@ for i in range(4):
             print("enter b" + str(j + 1))
             b[j] = float(input())
 print("solution by gauss")
-gauss(x[0],x[1],x[2],y[0],y[1],y[2],z[0],z[1],z[2],b[0],b[1],b[2])
+gauss_seidel(f1,f2,f3,e)
 
 print("solution by Jacobi")
 Jacobi(x[0],x[1],x[2],y[0],y[1],y[2],z[0],z[1],z[2],b[0],b[1],b[2])
